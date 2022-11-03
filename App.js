@@ -7,6 +7,8 @@ import Bai2 from "./screens/Bai2";
 import Bai3 from "./screens/Bai3";
 import Bai4 from "./screens/Bai4";
 import Bai5 from "./screens/Bai5";
+import Bai6 from "./screens/Bai6";
+import Bai7 from "./screens/Bai7";
 const Stack = createNativeStackNavigator();
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
         <Stack.Screen name="bai3" component={Bai3} />
         <Stack.Screen name="bai4" component={Bai4} />
         <Stack.Screen name="bai5" component={Bai5} />
+        <Stack.Screen name="bai6" component={Bai6} />
+        <Stack.Screen name="bai7" component={Bai7} />
       </Stack.Navigator>
     </NavigationContainer>
   );
